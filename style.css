@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {  padding: 0;
+  margin: 0cm;
+}
+ html,
+body {
+  font-family: 'Poppins';
+  height: 100%;
+  
+ 
+}
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  display: flex;
+ justify-content: center;
+}
+h3 {
+  font-size: 42px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+h6 {
+  font-size: 18px;
+  display: flex;
+  align-content: flex-start;
+}
+#my-header {
+    padding: 25px 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  #nav-bar{
+   width: 600%;
+  }
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 18px;
+    position: fixed;
+    top: 0;
+    Left:45%;
+    width: 50%;
+    
+  }
+#nav-bar ul a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 25px;
+    margin-right: 1rem;
+  }
+  #header ul{
+    color:pink;
+    
+  }
+  #service-box {
+    display: flex;
+    justify-content: start;
+    align-content:space-between;
+    flex-direction: row;
+  }
+ 
+  #service-box .logo {
+    width: 60px; 
+    height: 25px;
+      padding: 10px;
+  }
+  #service-box .search-icon{
+      width: 20px;
+      height:auto ;
+      padding: 10px;
+  }
+  #service-box #search-input{
+    width: 60%;
+  }
+  #service-box .search-btn{
+      color: white;
+      background-color:#fb3e44;
+      padding: 10px 12px;
+      margin: top 15px;
+      border: none;
+      
+  }
+  #service-box .join-log-btns {
+     display:flex;
+    justify-content:center;
+    background-color:white;
+    padding: 10px 10px;
+    border: none;
+    font-size: 18px;
+    
+}
+#service-box .join-log-btns .join-btn {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
+#service-box .join-log-btns .log-in-btn {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
+ 
+.container {
+  height: 600px;
+  background-color: rgba(232,217,217,.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  /* <--- I added this */
+  align-items: center;   /* <--- Change here */
+  width: 100%;
+  margin-top: 2cm;
+
+}
+.container .essential{
+  width: 475px;
+  margin-bottom: 1cm;
+}
+.container .buttons{
+  margin-right: 1cm;
+  font-size: 25px;
+}
+.container .buttons .see-plans{
+  background-color:#fb3e44;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 45px;
+  border:none;
+}
+.join-for-free {
+  font-size: 18px;
+  text-decoration: none;
+  color:black;
+  background-color:white;
+  padding: 5px 6px;
+}
+
+#section-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  /* <--- I added this */
+  align-items: center;   /* <--- Change here */
+  width: 100%;
+  height: 600px;
+  
+}
+#section-two .triangle-hexagon {
+  width: 250px;
+  height: auto;
+  padding-bottom: 100px;
+}
+#section-two .heading-background {
+  background-color:rgba(255, 204, 53, .4);
+  padding:2px 20px;
+  text-align: center;
+}
+#section-two .tool-article{
+  display: flex;
+  padding-top: 35px;
+  width: 900px;
+  margin-bottom: 1cm;
+  text-align: center;
+}
+
+
+#section-three .articles{
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px;
+  padding-bottom:60px;
+ 
+  
+  
+}
+#section-three .articles .img-three{
+  padding-bottom: 30px;
+  width: 30px;
+  height: auto;
+  display: flex;
+
+}
+#section-three .articles .content-three {
+display: flex;
+flex-direction:column;
+width: 250px;
+text-align: left;
+align-content: space-around;
+
+
+
+;
+}
+#section-three .articles .header-three{
+  color: #ED1C24;
+  display: flex;
+  justify-items: flex-start;
+  text-align: left;
+  padding-bottom: 30px;
+  
+}
+#section-three .btn-org {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 400px;
+}
+#section-three #org-btn{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 100px;
+  border:none;
+ 
+}
